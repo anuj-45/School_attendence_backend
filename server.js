@@ -10,7 +10,7 @@ const reportRoutes = require('./routes/reports');
 const messagingRoutes = require('./routes/messaging');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.SERVER_PORT || 5000;
 
 // Middleware
 app.use(cors());
